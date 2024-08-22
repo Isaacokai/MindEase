@@ -1,0 +1,64 @@
+.splash3-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.doctor-image {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+.content-container {
+  text-align: center;
+}
+
+.title {
+  font-size: 1.5em;
+  color: #004ea3;
+  margin-bottom: 15px;
+}
+
+.description {
+  font-size: 1em;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.next-button {
+  background-color: #004ea3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 15px;
+}
+
+.next-button:hover {
+  background-color: #003580;
+}
+
+.specialist-link a {
+  color: #004ea3;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.specialist-link a:hover {
+  text-decoration: underline;
+}
