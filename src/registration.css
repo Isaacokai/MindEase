@@ -1,0 +1,48 @@
+/* Container for the entire signup page */
+.regsignup-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f0f4ff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Container for the logo */
+.reglogo-container {
+  margin-bottom: 20px;
+}
+
+/* Logo image styling */
+.reglogo-image {
+  width: 80px;
+  height: auto;
+}
+
+/* Form styling */
+.regsignup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+/* Login link styling */
+.reglogin-link p {
+  font-size: 0.9em;
+  color: #004ea3;
+}
+
+/* Login link anchor tag styling */
+.reglogin-link a {
+  color: #004ea3;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hover effect for the login link */
+.reglogin-link a:hover {
+  text-decoration: underline;
+}
