@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../Splash2.css";
+import "../splash2.css";
 import videoCallImage from "../assets/Video Call_Flatline 1 (1).png"; // Make sure the path is correct
 
 const Splash2 = () => {
